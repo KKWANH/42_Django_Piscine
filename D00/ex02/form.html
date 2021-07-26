@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			body
+			{
+				text-align: center;
+				background: #424242;
+				color: white;
+				opacity: 1.0;
+			}
+
+			#WRAPPER
+			{
+				background: black;
+				width: 80%;
+				margin-left: 10%;
+				margin-top: 5%;
+				margin-bottom: 5%;
+				border:  3px white solid;
+			}
+
+			#FORM_HERE
+			{
+				font-size: 18px;
+				line-height: 2.2;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="WRAPPER">
+			<br>
+			<h1 style="font-size: 60px; line-height: 1;">📃</h1>
+			<form id="FORM_HERE">
+				<pre>First name	:  <input type="text" name="firstname" id="firstname"><br></pre>
+				<pre>Name		:  <input type="text" name="name" id="name"><br></pre>
+				<pre>Age		:  <input type="number" name="age" id="age"><br></pre>
+				<pre>Phone		:  <input type="tel" name="phone" id="phone"><br></pre>
+				<pre>E-mail		:  <input type="email" name="email" id="email"><br></pre>
+				Student at 42? <input type="checkbox" name="student" value="student42" id="student"><br>
+				Gender: <input type="radio" name="gender" value="male" checked id="gender_male"> Male
+					<input type="radio" name="gender" value="female" id="gender_female"> Female
+					<input type="radio" name="gender" value="other" id="gender_other"> Other<br><br>
+				<input type="button" value="Submit" onclick="displayFormContents();">
+			</form>
+			<br><br>
+			<script type="text/javascript" src="popup.js"></script>
+		</div>
+	</body> 
+</html>
+
