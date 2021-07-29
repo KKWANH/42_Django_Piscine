@@ -41,6 +41,8 @@ def	ft_all_in(argu):
 		"NJ": "Trenton",
 		"CO": "Denver"
 	}
+	if ",," in argu:
+		return
 	arrs = argu.split(",")
 	ft_all_in_main(arrs, states, capital_cities)
 
