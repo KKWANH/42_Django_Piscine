@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/27
+#		passed date:
 def what_is_type(val):
 	print("{0} has a type {1}".format(val, type(val)))
 

@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/27
+#		passed date:
 def	ft_sort_list_inv_dic(argu):
 	rdic = dict()
 	for name in argu:

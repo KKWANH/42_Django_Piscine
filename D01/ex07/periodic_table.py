@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/27
+#		passed date:
 def	ft_periodic_table_init_str_to_dict(lin):
 	dic = dict()
 	sp1 = lin.split("=")

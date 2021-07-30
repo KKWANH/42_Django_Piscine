@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/27
+#		passed date:
 def	ft_numbers(fil):
 	with open(fil) as f:
 		for l in f:

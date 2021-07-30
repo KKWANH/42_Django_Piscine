@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/27
+#		passed date:
 import sys
 
 def	ft_all_in_find_state(sval, states, capital_cities):
