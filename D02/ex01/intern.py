@@ -1,3 +1,6 @@
+#   42 KKIM - DJANGO & PYThON PISCINE - HEADER
+#		finish date: 7/30
+#		passed date:
 class	Intern:
 	def __init__(self, name = "My name? I’m nobody, an intern, I have no name."):
 		self.Name = name

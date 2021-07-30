@@ -36,10 +36,3 @@ class	Cappuccino(HotBeverage):
 		self.name = "cappuccino"
 	def	description(self):
 		return "Un po’ di Italia nella sua tazza!"
-
-if __name__ == '__main__':
-	print(HotBeverage())
-	print(Coffee())
-	print(Tea())
-	print(Chocolate())
-	print(Cappuccino())
